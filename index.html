@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Photography Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <label class="logo">CAM.io</label>
+      <button onclick="myFunction()"><i class="fa-solid fa-circle-half-stroke"></i></button>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#sign-up">Sign Up</a></li>
+      </ul>
+    </nav> 
+  </header>
+  
+  <section id="cam">
+    <h1>CAM.io Photography </h1>
+    <p>Stunning visual stories captured with passion.</p>
+    <a href="#portfolio" class="cta-button">View Portfolio</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Welcome to CAM.io photography page. I specialize in capturing moments that last a lifetime. Whether it's a wedding, a landscape, or a portrait, my goal is to freeze time and create beautiful memories.</p>
+  </section>
+
+  <!-- Portfolio -->
+
+  <section id="portfolio">
+    <h1><b>Portfolio</b></h1>
+    <h4>Welcome to my Photography Portfolio</h4>
+            <h5>Discover the world through my lens</h5>
+            <p>Explore my portfolio and discover the beauty of the world through my lens.<br> 
+              I specialize in landscape and portrait photography and have been capturing 
+              the world's beauty for over 10 years.<br> Contact me to schedule a shoot or to purchase prints.</p>
+   
+    <div class="gallery">
+      <img src="sunset.jpg" alt="Photo 1"> 
+      <img src="bird.jpg" alt="Photo 2">
+      <img src="hill.jpg" alt="Photo 3">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you're interested in working together, feel free to reach out. Let's create something extraordinary.</p>
+
+    <p>Get in touch with me to schedule a shoot or to purchase prints.</p>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button>Send</button>
+        </form>
+
+        <div class="social">
+          <h4>find me on:</h4> <br>
+          <a href="https://www.linkedin.com/in/juli-kumari-43163b256/">Linkedin</a>
+     
+      </div>
+  </section>
+
+  <!-- Footer -->
+   <footer>
+    <p>&copy; 2024 Juli. All rights reserved.</p>
+  </footer> 
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+</body>
+</html>

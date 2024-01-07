@@ -1,0 +1,108 @@
+/* CSS for styling the photography landing page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+  }
+  .dark-mode{
+    background-color: black;
+    color: white;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+ 
+  }
+  
+  label.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #cam {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('camera.jpg');
+    color: #fff;
+  }
+  
+  #about, #portfolio, #contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 310px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: 200px;
+
+    margin: 10px 20px;
+    max-width: calc(100% / 3 - 50px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  /*  Footer  */
+ 
+  footer {
+  background: #111;
+  padding: 6px 16px;
+  color: #888c8d;
+  text-align: center;
+}
+
+footer span a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
